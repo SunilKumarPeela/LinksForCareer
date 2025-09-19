@@ -38,3 +38,22 @@ The **NIST National Vulnerability Database (NVD)** is the U.S. government’s pu
 ## 🔗 Useful Link
 - [Visit NIST NVD](https://nvd.nist.gov/)
 ---
+
+# 🛡️ OWASP Top Ten (Web Application Security Risks)
+
+The **OWASP Top Ten** is a community-driven, industry-recognized awareness document that highlights the most critical security risks to web applications. Updated periodically, it synthesizes real-world data from industry sources to help teams prioritize defenses, guide secure development, and structure AppSec programs. Even if you follow other standards, the Top Ten is a practical starting point for risk-based training, threat modeling, and control selection.
+
+## 🧭 What’s Inside
+- **Top Ten Risk Categories** – The current list of high-impact web app risks with descriptions, examples, and mitigations
+- **Data & Methodology** – How categories are selected from industry incident data and expert input
+- **Mappings** – Links to **CWE**, **ASVS**, and related OWASP resources for deeper technical alignment
+- **Guidance & Mitigations** – Practical prevention strategies, verification steps, and references
+- **Training Aids** – Cheat sheets, labs, and project resources for developer education
+- **Downloads & Artifacts** – PDFs, translations, and companion materials for teams
+
+> 💡 **Tip:** Use the Top Ten to seed your **SSDL/SDLC** requirements, align findings to **CWE** for root-cause analysis, and verify controls against **OWASP ASVS** to move from awareness to measurable assurance.
+
+## 🔗 Useful Link
+- [Visit OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+
+---
