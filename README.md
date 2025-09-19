@@ -57,3 +57,20 @@ The **OWASP Top Ten** is a community-driven, industry-recognized awareness docum
 - [Visit OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 
 ---
+# 🧩 MITRE CWE Top 25 (Most Dangerous Software Weaknesses)
+
+The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most prevalent and impactful software weaknesses. Derived from real-world vulnerability data (e.g., CVEs analyzed via NVD), it helps teams prioritize secure coding practices, focus code reviews, tune SAST/DAST rules, and guide developer training. Even if you follow other frameworks, the Top 25 is a practical, high-signal list to reduce the most common root causes of vulnerabilities.
+
+## 🧭 What’s Inside
+- **Ranked Weakness List** – The current Top 25 CWEs with descriptions, consequences, and examples
+- **Methodology** – How incidence and severity are combined to compute scores and rankings
+- **Mappings** – Cross-references to **CVE**, related **CWE** entries, and attack patterns (**CAPEC**)
+- **Mitigations & Detection** – Recommended coding practices, test ideas, and review guidance
+- **Historical Lists** – Prior years’ rankings for trend analysis and program benchmarking
+- **Downloads & Assets** – Pages, data tables, and references for automation or reporting
+
+> 💡 **Tip:** Map your findings to CWE categories and align remediation sprints to the Top 25. Use it to seed **secure coding checklists**, calibrate **SAST rules**, and target **developer training** where it removes the most risk.
+
+## 🔗 Useful Link
+- [Visit CWE Top 25](https://cwe.mitre.org/top25/)
+---
