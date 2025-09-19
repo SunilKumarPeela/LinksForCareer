@@ -20,3 +20,21 @@ The **Common Criteria (CC)** is an international standard for evaluating the sec
 ## 🔗 Useful Link
 - [Visit Common Criteria Portal](https://www.commoncriteriaportal.org/index.cfm)
 ---
+
+# 🐞 NIST National Vulnerability Database (NVD)
+
+The **NIST National Vulnerability Database (NVD)** is the U.S. government’s public repository of standardized vulnerability information. It builds on the CVE® list by adding analysis and metadata—such as severity scoring, affected products, and weakness classifications—to help teams assess risk and prioritize remediation. Even if you track advisories elsewhere, NVD is a central, authoritative reference for vulnerability research and reporting.
+
+## 🧭 What’s Inside
+- **CVE Records** – Standardized entries for publicly disclosed vulnerabilities
+- **CVSS Metrics** – Severity scores with vector details for impact/exploitability analysis
+- **CWE Mapping** – Underlying weakness classifications to guide secure fixes
+- **CPE Matching** – Structured identifiers for affected vendors/products/versions
+- **References & Patches** – Links to advisories, exploits, and remediation guidance
+- **Feeds & API** – JSON data feeds and endpoints for automation and dashboards
+
+> 💡 **Tip:** Start with a **CVE ID**, review the **CVSS vector** to understand risk, then use **CPE** filters to verify whether your exact product/version is affected. Map to **CWE** to inform secure coding and long-term mitigations.
+
+## 🔗 Useful Link
+- [Visit NIST NVD](https://nvd.nist.gov/)
+---
