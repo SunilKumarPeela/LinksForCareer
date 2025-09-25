@@ -74,3 +74,59 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 ## 🔗 Useful Link
 - [Visit CWE Top 25](https://cwe.mitre.org/top25/)
 ---
+---
+
+# 🧪 Application Security Testing
+
+**Application Security Testing (AST)** is the practice of identifying, analyzing, and mitigating security weaknesses within software applications. It ensures vulnerabilities are detected early in the **Software Development Life Cycle (SDLC)** and prevents them from reaching production. AST includes approaches such as **Static Application Security Testing (SAST)**, **Dynamic Application Security Testing (DAST)**, and **Interactive Application Security Testing (IAST)**, along with modern practices like **secret scanning** and dependency analysis.
+
+## 🧭 What’s Inside
+- **SAST & DAST** – Detect vulnerabilities at code and runtime  
+- **IAST & RASP** – Hybrid and runtime protection mechanisms  
+- **Secret Scanning** – Prevent exposure of API keys, tokens, and credentials  
+- **Dependency Checks** – Identify risks in third-party libraries  
+- **CI/CD Integration** – Automate scans as part of DevSecOps pipelines  
+
+> 💡 **Tip:** Introduce AST tools into your build pipeline to **“shift security left”**—catching issues earlier, reducing cost, and increasing developer awareness.
+
+---
+
+## 🕵️ Secret Scanning
+
+**Secret scanning** is a vital AST practice that identifies exposed credentials such as API keys, tokens, and private certificates inside code repositories. Since these secrets can be exploited to gain unauthorized access, scanning prevents accidental leaks before they cause harm.
+
+## 🔧 Useful Tools
+- [**git-secrets**](https://github.com/awslabs/git-secrets) – AWS Labs tool that scans Git commits for secrets and blocks pushes if sensitive patterns (like AWS keys) are detected.  
+- [**TruffleHog**](https://github.com/trufflesecurity/trufflehog) – Advanced scanner that searches commit history and file systems for high-entropy strings and credential patterns, uncovering secrets missed by simple regex checks.  
+
+> 💡 **Tip:** Integrate tools like **git-secrets** and **TruffleHog** into your **CI/CD pipelines** to automatically block risky commits and alert teams for remediation.
+
+---
+---
+
+# 🧪 Application Security Testing
+
+**Application Security Testing (AST)** is the practice of identifying, analyzing, and mitigating security weaknesses within software applications. It ensures vulnerabilities are detected early in the **Software Development Life Cycle (SDLC)** and prevents them from reaching production. AST includes approaches such as **Static Application Security Testing (SAST)**, **Dynamic Application Security Testing (DAST)**, and **Interactive Application Security Testing (IAST)**, along with modern practices like **secret scanning** and dependency analysis.
+
+## 🧭 What’s Inside
+- **SAST & DAST** – Detect vulnerabilities at code and runtime  
+- **IAST & RASP** – Hybrid and runtime protection mechanisms  
+- **Secret Scanning** – Prevent exposure of API keys, tokens, and credentials  
+- **Dependency Checks** – Identify risks in third-party libraries  
+- **CI/CD Integration** – Automate scans as part of DevSecOps pipelines  
+
+> 💡 **Tip:** Introduce AST tools into your build pipeline to **“shift security left”**—catching issues earlier, reducing cost, and increasing developer awareness.
+
+---
+
+## 🕵️ Secret Scanning
+
+**Secret scanning** is a vital AST practice that identifies exposed credentials such as API keys, tokens, and private certificates inside code repositories. Since these secrets can be exploited to gain unauthorized access, scanning prevents accidental leaks before they cause harm.
+
+## 🔧 Useful Tools
+- [**git-secrets**](https://github.com/awslabs/git-secrets) – AWS Labs tool that scans Git commits for secrets and blocks pushes if sensitive patterns (like AWS keys) are detected.  
+- [**TruffleHog**](https://github.com/trufflesecurity/trufflehog) – Advanced scanner that searches commit history and file systems for high-entropy strings and credential patterns, uncovering secrets missed by simple regex checks.  
+
+> 💡 **Tip:** Integrate tools like **git-secrets** and **TruffleHog** into your **CI/CD pipelines** to automatically block risky commits and alert teams for remediation.
+
+---
