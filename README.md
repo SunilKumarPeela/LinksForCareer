@@ -102,3 +102,29 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 > 💡 **Tip:** Integrate tools like **git-secrets** and **TruffleHog** into your **CI/CD pipelines** to automatically block risky commits and alert teams for remediation.
 
 ---
+
+---
+
+# 🧑‍💻 Static Application Security Testing (SAST)
+
+**Static Application Security Testing (SAST)** is a white-box testing method that analyzes source code, bytecode, or binaries to detect security vulnerabilities without executing the program. It is typically integrated early in the **Software Development Life Cycle (SDLC)**, allowing developers to catch issues before deployment. SAST tools scan codebases for insecure coding patterns, compliance violations, and potential flaws such as **SQL injection, XSS, hardcoded secrets, and buffer overflows**.
+
+## 🧭 What’s Inside
+- **Source Code Scanning** – Automated review of application code for vulnerabilities  
+- **IDE Integration** – Feedback to developers as they code  
+- **CI/CD Integration** – Automated scans during build pipelines  
+- **Policy Enforcement** – Ensure compliance with standards like **OWASP ASVS**, **CWE**, and **NIST**  
+- **Developer Enablement** – Early detection reduces remediation costs and improves secure coding skills  
+
+> 💡 **Tip:** SAST is most effective when combined with **secret scanning** and **DAST** to cover both code and runtime vulnerabilities.
+
+---
+
+## 🔧 Useful Tools
+- [**SonarQube**](https://www.sonarsource.com/products/sonarqube/) – Industry-standard platform for continuous code quality and security. It integrates with IDEs, CI/CD pipelines, and supports multiple programming languages with rulesets aligned to CWE and OWASP Top Ten.  
+- [**CodeSweep**](https://marketplace.visualstudio.com/items?itemName=ContrastSecurity.codesweep) – A free Visual Studio Code extension by Contrast Security that provides real-time security feedback to developers, highlighting insecure coding patterns directly within the IDE.  
+
+> 💡 **Tip:** Use **SonarQube** for enterprise-wide codebase scanning and governance, while **CodeSweep** is ideal for giving instant feedback to developers during coding.
+
+---
+
