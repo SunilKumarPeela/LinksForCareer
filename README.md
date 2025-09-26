@@ -266,3 +266,10 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 
 ---
 
+---
+## Open Policy Agent (OPA)
+
+A lightweight, general-purpose **policy engine** that lets you define, enforce, and manage policies across microservices, Kubernetes, and CI/CD using a unified policy language (Rego).  
+
+🔗 [Official site & documentation](https://www.openpolicyagent.org)
+---
