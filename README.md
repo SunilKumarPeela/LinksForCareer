@@ -151,4 +151,28 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 > 💡 **Tip:** Use **Dependabot** for continuous dependency updates and **Dependency-Check** for in-depth vulnerability scanning across build systems.
 
 ---
+---
+
+# 🌐 Dynamic Application Security Testing (DAST)
+
+**Dynamic Application Security Testing (DAST)** is a black-box testing method that analyzes a running application from the outside to identify security vulnerabilities. Unlike SAST, which inspects code, DAST simulates real-world attacks against the deployed app—without needing access to the source code. It is highly effective at finding runtime issues such as **SQL injection, XSS, authentication flaws, insecure redirects, and misconfigurations**.
+
+## 🧭 What’s Inside
+- **Runtime Testing** – Evaluates apps in execution rather than source code  
+- **Vulnerability Simulation** – Mimics real-world attacker techniques  
+- **Protocol & Input Testing** – Identifies weak validation and unsafe endpoints  
+- **CI/CD Integration** – Automates scans against staging environments  
+- **Compliance Support** – Helps meet standards like PCI-DSS, ISO 27001, and NIST  
+
+> 💡 **Tip:** Combine **DAST** with **SAST** and **SCA** for full coverage of both runtime and code-level vulnerabilities.
+
+---
+
+## 🔧 Useful Tools
+- [**OWASP ZAP (Zed Attack Proxy)**](https://www.zaproxy.org/) – A free, open-source DAST tool maintained by OWASP. It can scan web apps for vulnerabilities, automate regression scans, and includes an active community and CI/CD plugins.  
+- [**Burp Suite**](https://portswigger.net/burp) – A widely used commercial and community DAST tool offering advanced penetration testing features like intercepting proxies, automated scanning, fuzzing, and vulnerability exploitation.  
+
+> 💡 **Tip:** Use **OWASP ZAP** for open-source, community-driven testing and **Burp Suite** for more advanced manual + automated penetration testing.
+
+---
 
