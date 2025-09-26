@@ -175,4 +175,94 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 > 💡 **Tip:** Use **OWASP ZAP** for open-source, community-driven testing and **Burp Suite** for more advanced manual + automated penetration testing.
 
 ---
+---
+---
+
+# 🧩 Interactive Application Security Testing (IAST)
+
+**Interactive Application Security Testing (IAST)** acts like a *security expert looking over the shoulder of your application while it’s running*. It combines the strengths of **SAST** (code-level analysis) and **DAST** (runtime testing) by monitoring applications from inside as they execute. IAST provides deep, real-time feedback during functional testing, making it highly accurate and developer-friendly.
+
+## 🧭 What’s Inside
+- **Runtime Monitoring** – Observes applications during normal execution  
+- **Hybrid Approach** – Combines benefits of SAST and DAST  
+- **Context-Aware Findings** – Pinpoints vulnerabilities with detailed traces  
+- **CI/CD Integration** – Continuous scanning during development and QA  
+- **Actionable Feedback** – Provides developers with real-time security insights  
+
+> 💡 **Tip:** IAST is especially powerful in **QA/staging environments** where apps are exercised with real workloads.
+
+---
+
+## 🔧 Useful Tools
+- [**Contrast Assess (IAST)**](https://www.contrastsecurity.com/contrast-assess) – An enterprise-grade IAST tool by Contrast Security that integrates into applications and provides continuous security analysis in real time.  
+- [**Seeker**](https://www.synopsys.com/software-integrity/security-testing/interactive-application-security-testing.html) – A Synopsys IAST solution that provides runtime vulnerability detection, dataflow analysis, and actionable remediation guidance.  
+
+---
+---
+
+# 📦 Container Scanning
+
+**Container Scanning** identifies vulnerabilities in container images, ensuring that applications built on Docker or Kubernetes are secure. Since containers often rely on base images and third-party packages, scanning helps detect CVEs, misconfigurations, and outdated dependencies before deployment.
+
+## 🧭 What’s Inside
+- **Image Analysis** – Scan Docker/Kubernetes images for known vulnerabilities  
+- **Registry Integration** – Connect with DockerHub, ECR, GCR, and others  
+- **Policy Enforcement** – Block vulnerable images from production  
+- **CI/CD Integration** – Automate scans during build and deployment  
+- **Compliance Support** – Ensure images meet organizational and industry standards  
+
+> 💡 **Tip:** Always scan both **base images** and **application layers** for vulnerabilities.
+
+---
+
+## 🔧 Useful Tools
+- [**Anchore**](https://anchore.com/) – Open-source and enterprise solutions for container image scanning and compliance checks, with CI/CD pipeline integration.  
+- [**Privy**](https://github.com/privy-io) – Lightweight container security tool that scans for secrets and vulnerabilities in container environments.  
+
+---
+---
+
+# 🏗️ Infrastructure as Code (IaC) Scanning
+
+**Infrastructure as Code (IaC) Scanning** detects vulnerabilities and misconfigurations in IaC templates like **Terraform, CloudFormation, ARM, and Kubernetes manifests**. By catching risks before provisioning, IaC scanning ensures cloud environments are secure by design.
+
+## 🧭 What’s Inside
+- **Template Analysis** – Scan IaC files for risky configurations  
+- **Policy Enforcement** – Apply guardrails aligned with CIS benchmarks  
+- **Multi-Cloud Support** – AWS, Azure, GCP templates and Kubernetes configs  
+- **CI/CD Integration** – Prevent insecure code from being deployed  
+- **Shift-Left Security** – Embed scanning in the developer workflow  
+
+> 💡 **Tip:** Use IaC scanning before provisioning to avoid misconfigurations in live environments.
+
+---
+
+## 🔧 Useful Tools
+- [**Checkov**](https://www.checkov.io/) – Open-source tool by Bridgecrew for scanning Terraform, Kubernetes, CloudFormation, and other IaC frameworks against security policies.  
+- [**Terascan**](https://github.com/accurics/terrascan) – A popular IaC security scanner that supports multiple providers and enforces compliance with industry standards.  
+
+---
+---
+
+# 🌍 Infrastructure Scanning
+
+**Infrastructure Scanning** evaluates live infrastructure components such as servers, networks, and endpoints for vulnerabilities. It helps organizations discover misconfigurations, outdated software, open ports, and exploitable services in on-premises and cloud environments.
+
+## 🧭 What’s Inside
+- **Network Scanning** – Identify open ports, services, and misconfigurations  
+- **Server Vulnerability Detection** – Find outdated or unpatched software  
+- **Cloud & On-Prem Support** – Works across hybrid environments  
+- **Compliance Support** – Aligns with PCI-DSS, HIPAA, and CIS benchmarks  
+- **Continuous Monitoring** – Detects new risks as infrastructure evolves  
+
+> 💡 **Tip:** Schedule recurring scans to maintain ongoing visibility into infrastructure risks.
+
+---
+
+## 🔧 Useful Tools
+- [**Nessus**](https://www.tenable.com/products/nessus) – A widely used vulnerability scanner that assesses servers, networks, and applications for thousands of known issues.  
+- [**Nikto**](https://cirt.net/Nikto2) – An open-source web server scanner that detects dangerous files, outdated server software, and common misconfigurations.  
+- [**AWS Inspector**](https://aws.amazon.com/inspector/) – A cloud-native vulnerability management service that continuously scans AWS workloads and identifies risks.  
+
+---
 
