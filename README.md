@@ -127,4 +127,28 @@ The **MITRE CWE Top 25** is an annually updated, data-driven ranking of the most
 > 💡 **Tip:** Use **SonarQube** for enterprise-wide codebase scanning and governance, while **CodeSweep** is ideal for giving instant feedback to developers during coding.
 
 ---
+---
+
+# 📦 Software Composition Analysis (SCA)
+
+**Software Composition Analysis (SCA)** is the process of identifying and managing open-source components, libraries, and dependencies within an application. Since modern software often relies heavily on third-party code, SCA ensures that vulnerabilities, outdated packages, and licensing risks are discovered and addressed. It helps teams prevent known exploits (like those in the **NVD CVE database**) from creeping into their applications.
+
+## 🧭 What’s Inside
+- **Dependency Scanning** – Detect vulnerable open-source components  
+- **Version Management** – Identify outdated or insecure package versions  
+- **License Compliance** – Ensure usage aligns with legal requirements (e.g., GPL, MIT, Apache)  
+- **Integration** – Works with GitHub, GitLab, Jenkins, and other CI/CD pipelines  
+- **Automation** – Automatically raise pull requests for fixes/upgrades  
+
+> 💡 **Tip:** SCA should be combined with **SAST** and **DAST** to provide full coverage of custom code and third-party risks.
+
+---
+
+## 🔧 Useful Tools
+- [**Dependabot**](https://github.com/dependabot) – A GitHub-native tool that scans repositories for outdated or vulnerable dependencies and automatically generates pull requests to update them. It integrates seamlessly with GitHub workflows, making dependency management proactive and automated.  
+- [**OWASP Dependency-Check**](https://owasp.org/www-project-dependency-check/) – An open-source tool that identifies project dependencies and checks for known vulnerabilities (CVE entries). It supports multiple build systems (Maven, Gradle, npm, etc.) and can be integrated into CI/CD pipelines.  
+
+> 💡 **Tip:** Use **Dependabot** for continuous dependency updates and **Dependency-Check** for in-depth vulnerability scanning across build systems.
+
+---
 
